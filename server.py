@@ -32,5 +32,5 @@ def predict():
             # for browser, add 'redirect' function on top of 'url_for'
             return url_for('predict',
                            filename=filename)
-
-    return f'predict called'
+    else:
+        return f'predict called'
