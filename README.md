@@ -3,6 +3,9 @@
 
 learn [flask](https://www.palletsprojects.com/p/flask/), the python web application framework
 
+* [`server.py`](server.py) - flask server
+* [`client.py`](client.py) - http client.  uses `requests` to POST the [`image.jpeg`](image.jpeg) image file
+
 ## Running
 
 ```sh
