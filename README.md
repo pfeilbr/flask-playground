@@ -6,6 +6,10 @@ learn [flask](https://www.palletsprojects.com/p/flask/), the python web applicat
 * [`server.py`](server.py) - flask server
 * [`client.py`](client.py) - http client.  uses `requests` to POST the [`image.jpeg`](image.jpeg) image file
 
+## Prerequisites
+
+* [pipenv](https://pipenv.kennethreitz.org/) for python environment/packages
+
 ## Running
 
 ```sh
