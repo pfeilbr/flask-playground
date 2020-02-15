@@ -12,6 +12,9 @@ def prepare_uploads_directory():
     os.mkdir(UPLOAD_DIRECTORY_NAME)
 
 
+prepare_uploads_directory()
+
+
 @app.route('/')
 def hello():
     name = request.args.get("name", "World")
@@ -21,7 +24,6 @@ def hello():
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     print(request.method)
-    prepare_uploads_directory()
 
     if request.method == 'POST':
         file = request.files['file']
